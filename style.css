@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url('https://images.pexels.com/photos/4321207/pexels-photo-4321207.jpeg?cs=srgb&dl=pexels-jess-vide-4321207.jpg&fm=jpg');
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 70px;
+  cursor: pointer;
+}
+.menu {
+  width: 40px;
+  cursor: pointer;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+  color: teal;
+  font-size: 20px;
+}
+.row {
+  display: flex;
+  height: 70%;
+  align-items: center;
+}
+c1 {
+  flex-basis: 50%;
+}
+h1 {
+  color: white;
+  font-size: 100px;
+}
+p {
+  color: black;
+  font-size: 15px;
+  line-height: 20px;
+}
+h1:hover {
+  color: brown;
+}
+button {
+  width: 180px;
+  color: black;
+  font-size: 12px;
+  padding: 12px 0;
+  background: lightblue;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  margin-top: 30px;
+}
+.card {
+  width: 237px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-size: cover;
+
+  transition: transform 0.5s;
+}
+
+.d1 {
+  background-image: url('i1.jpeg');
+}
+.d2 {
+  background-image: url('i2.jpeg');
+}
+.d3 {
+  background-image: url('i3.jpeg');
+}
+.d4 {
+  background-image: url('i4.jpeg');
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+h5 {
+  color: white;
+}
+li:hover {
+  color: whitesmoke;
+}
+button:hover {
+  color: red;
+}
+marquee {
+  margin: 10px;
+}
